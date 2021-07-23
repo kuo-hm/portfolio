@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Navbar.css";
+import "./Styles/Navbar.css";
 const NavBar = () => {
   const [clicked, setClicked] = useState(false);
   const handleClick = () => setClicked(!clicked);
@@ -16,17 +16,17 @@ const NavBar = () => {
         </li>
         <li>
           <a href="/" className="nav-links">
-          My Skills
+            My Skills
           </a>
         </li>
         <li>
           <a href="/" className="nav-links">
-          My Projects
+            My Projects
           </a>
         </li>
         <li>
           <a href="/" className="nav-links">
-           Contact Me!
+            Contact Me!
           </a>
         </li>
       </ul>
