@@ -5,9 +5,9 @@
   background: #f8f4e5;
   padding: 50px 100px;
   border-top: 10px solid #f45702;
-  width:50%;
+  width:38%;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 label, input, textarea {
@@ -73,4 +73,17 @@ button:hover {
 
 ::selection {
   background: #ffc7b8;
+}
+@media screen and (max-width: 768px){
+  button {
+    padding: 0 60px;
+  }
+  input, textarea{
+
+  padding-left: 50px;
+}
+.contact-us {
+   padding: 50px 100px 50px 50px  
+}
+
 }
